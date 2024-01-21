@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mini Project JavaScript</title>
+  <link rel="stylesheet" href="mini project.css">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <form action="" name="myform" onsubmit=" return passwordValidate()">
+      <h1> Fill Form</h1>
+      <label for="name" id="b">NAME:</label>
+      <input type="text" name="name" id="name" onkeydown="namevalid()"><span id="demo1"></span><br>
+
+      <label for="password" id="b">Password:</label>
+      <input type="password" name="password" id="" ><span id="demo2"></span><br>
+
+      <label for="CONFIRM" id="b">CONFIRM Password:</label>
+      <input type="password" name="password1" id="CONFIRM" onkeyup="passwordValidate()"><span id="demo3"></span><br>
+
+      <label for="Email" id="b">Email:</label>
+      <input type="text" name="email" id="EMail" onclick="emailvalid()" onkeypress="emailvalid()"><span id="demo4"></span><br>
+
+      <input type="submit" id="a" value="submit" >
+    </form>
+
+  </div>
+  <script src="mini project.js"></script>
+</body>
+
+</html>
